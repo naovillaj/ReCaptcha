@@ -13,11 +13,10 @@ div{
 
 #codigoReCaptcha{
 	background-color: white;
-	width: 96%;
-	height: 50%;
+	width: 590px;
+	height: 250px;
 	position: absolute;
-	margin: 10px 0;
-	top: 0;
+	padding: 0;
 }
 
 input{
