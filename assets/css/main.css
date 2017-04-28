@@ -21,12 +21,17 @@ div{
 
 input{
 
-	width: 100%;
+	width: 67%;
 	height: 100%;
 	margin: 0 auto;
 	outline: 0;
 	display: inherit;
 	background-color: inherit;
+	font-size: 60px;
+	padding-left: 190px;
+	font-family: "Josefin Sans";
+	font-weight: bold;
+	color: #234047;
 
 }
 	
@@ -40,6 +45,13 @@ input{
 	display: inline-block;
 	left: 10px;
 	bottom: 10px;
+}
+
+#codigoIngresado{
+	color: #9C98AF;
+	padding-left: 50px;
+	margin: 0;
+	width: 85%;
 }
 
 #imagenes{
@@ -86,4 +98,11 @@ img.iconoReCaptcha{
 	text-align: center;
 	width: 190px;
 	height: 130px;
+}
+
+#load{
+	transform : rotate(90deg);
+	-moz-transform : rotate(90deg); /* Firefox */
+	-webkit-transform : rotate(90deg); /* Chrome - Safari */
+	-o-transform : rotate(90deg); /* Opera */
 }

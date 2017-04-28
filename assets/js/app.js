@@ -1,8 +1,10 @@
+ window.addEventListener("load", reCaptcha);
+
  function reCaptcha(){
    var letras = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
    var numeros = ["1","2","3","4","5","6","7","8","9","0"];
-   var i;
-   for (i=0;i<6;i++){
+   
+   for (var i=0;i<6;i++){
      var a = letras[Math.floor(Math.random() * letras.length)];
      var b = numeros[Math.floor(Math.random() * numeros.length)];
      var c = letras[Math.floor(Math.random() * letras.length)];
@@ -16,7 +18,7 @@
   document.getElementById("inputReCaptcha").value = codigoReCaptcha;
 }
 
-document.getElementById("body").addEventListener("load", reCaptcha);
+
 document.getElementById("load").addEventListener("click", reCaptcha);
 
 function ValidCaptcha(){
